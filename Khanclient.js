@@ -138,7 +138,7 @@ document.body.appendChild(script);
 
 // Visual Functions
 
-    loadScript(patching+'UI/mainMenu.js', 'mainMenu');
+    loadScript(patching+'UI/MainMenu.js', 'mainMenu');
 
 // Loading
 (async () => {
