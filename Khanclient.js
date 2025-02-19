@@ -136,6 +136,8 @@ const script = Object.assign(document.createElement("script"), {
 });
 document.body.appendChild(script);
 
+// Visual function
+
 // Loading
 (async () => {
     await loadCss('https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css');
@@ -150,6 +152,7 @@ document.body.appendChild(script);
     hideLoadingScreen();
     sendToast("📎 Khanclient injected!", 3000, "bottom");
     sendToast("⭐ Bem vindo(a) Khanclient!", 3000, "bottom");
+    sendToast("⭐ Para de caguetar para a lainia", 100000, "bottom");
 
     console.log("Made by FontesCode")
 })().catch(error => console.error("Error ocurred:", error));
