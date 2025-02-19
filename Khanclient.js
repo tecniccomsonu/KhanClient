@@ -136,10 +136,6 @@ const script = Object.assign(document.createElement("script"), {
 });
 document.body.appendChild(script);
 
-// Visual Functions
-
-    loadScript(patching+'UI/MainMenu.js', 'mainMenu');
-
 // Loading
 (async () => {
     await loadCss('https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css');
